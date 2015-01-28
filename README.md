@@ -1,3 +1,4 @@
 # google-homepage
 
-This is my first git. From the Odin Project.
+The Make Google Homepage Project"
+http://www.theodinproject.com/web-development-101/html-css
