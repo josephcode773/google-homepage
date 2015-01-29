@@ -1,3 +1,57 @@
-p {
-	font-size: 30px;
+body {
+	border: 1px solid black;
+}
+
+div {
+	border: 1px solid black;
+}
+
+#header {
+	float: right;
+	margin-right: 5px;
+	margin-top: 20px;
+	display: inline;
+}
+
+.headbutt01 {
+	float: right;
+	display: inline;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+.headbutt03 {
+	float: right;
+	margin-left: 20px
+}
+.headbutt04 {
+	float: right;
+	margin-left: 20px;
+}
+
+.headbutt05 {
+	float: right;
+	margin-left: 20px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #222222;
+	font-family: Arial, sans-serif;
+}
+
+#iga {
+	font-family: Arial, sans-serif;
+	font-size: 13px
+	height: 231px;
+	width: 980px;
+	margin: auto;
+	display: block;
+}
+
+.hplogo {
+	height: 95px;
+	width: 269px;
+	padding: 112px 0 0 0;
 }
