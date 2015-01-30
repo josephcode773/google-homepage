@@ -1,23 +1,32 @@
-body {
-	border: 1px solid black;
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
+
 
 div {
 	border: 1px solid black;
 }
 
+
 #header {
 	float: right;
 	margin-right: 5px;
 	margin-top: 20px;
+	margin-bottom: 150px;
 	display: inline;
 }
 
 .headbutt01 {
 	float: right;
-	display: inline;
-	text-decoration: none;
 	margin-left: 20px;
+}
+
+.headbutt02{
+	float: right;
+	margin-left: 20px
 }
 
 .headbutt03 {
@@ -34,6 +43,7 @@ div {
 	margin-left: 20px;
 }
 
+
 a {
 	text-decoration: none;
 	font-size: 13px;
@@ -41,17 +51,138 @@ a {
 	font-family: Arial, sans-serif;
 }
 
+
 #iga {
-	font-family: Arial, sans-serif;
-	font-size: 13px
-	height: 231px;
-	width: 980px;
+	clear: right;
+	position: relative;
+	height: 115px;
+}
+
+
+.tester {
+	width: 269px;
+	height: 95px;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
 	margin: auto;
+}
+
+#outbox {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 30px;
+	width: 572px;
+	border: 1px solid #4285f4;
 	display: block;
 }
 
-.hplogo {
-	height: 95px;
-	width: 269px;
-	padding: 112px 0 0 0;
+.innerbox {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 27px;
+	width: 541px;
+	padding: 5px 9px 0 9px;
+}
+
+.searchbox {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 19px;
+	width: 523px;
+	border:	none;
+}
+
+#buttonbar {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	height: 40px;
+	width: 210px;
+	border: 1px dashed #black;
+	display: block;
+}
+
+div#buttonbar div  button:nth-child(2) {
+	float: right;
+}
+
+div#buttonbar div  button {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 29px;
+	height: 29px;
+	width: 96;
+	background-color: #f2f2f2
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	width: 99%;
+	background-color: #f2f2f2;
+	border-top: #e4e4e4;
+	display: inline;
+}
+
+#leftfoot {
+	float: left;
+	display: inline;
+}
+
+.advertising {
+	float: left;
+	width: 65px;
+	height: 40px;
+	margin-left: 27;
+}
+
+.business {
+	float: left;
+	width: 65px;
+	height: 40px;
+	margin-left: 27;
+}
+
+.about {
+	float: left;
+	width: 65px;
+	height: 40px;
+	margin-left: 27;	
+}
+
+#rightfoot {
+	float: right;
+	display: inline;
+}
+
+.settings {
+	float: right;
+	width: 65px;
+	height: 40px;
+	margin-left: 27;
+}
+
+.terms {
+	float: right;
+	width: 65px;
+	height: 40px;
+	margin-left: 27;
+}
+
+.privacy {
+	float: right;
+	width: 65px;
+	height: 40px;
+	margin-left: 27;
 }
